@@ -40,8 +40,12 @@ Caso seja um usuário do Windows, é necessário realizar uma instalação manua
   4. No campo de digitação aberto, cole o diretório "\bin" de seu diretório do poppler (no meu caso "C:\Program Files\poppler-20.12.1\Library\bin", sem aspas);
   5. Tecle ENTER, dê um OK e reinicie o Command Line caso esteja aberto.
 
-#### Instalando o binário do Tesseract
+#### Instalando o binário do Tesseract + o suporte para a língua portuguesa
 A biblioteca Tesseract (que executa a tecnologia OCR em uma imagem) também precisa do diretório "\bin" no _PATH_:
 1. Faça o download do instalador (https://github.com/UB-Mannheim/tesseract/wiki) e instale-o em seu "Arquivos de Programas" (C:\Program Files\Tesseract-OCR);
 2. No arquivo _"analisador-curriculum-vitae.py"_ desse repositório, modifique o path até o executável se necessário:
 ``pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'``
+
+Para istalar o suporte à língua portuguesa:
+1. Faça download do modelo treinado (https://github.com/tesseract-ocr/tessdata/blob/master/por.traineddata);
+2. Cole o arquivo 'por.traineddata' na pasta 'tessdata', dentro do folder do Tesseract (o meu é 'C:\Program Files\Tesseract-OCR\tessdata').
