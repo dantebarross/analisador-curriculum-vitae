@@ -27,3 +27,15 @@ virtualenv .
 ```
 
 O ambiente virtual será criado e executado. Agora, você pode instalar quaisquer bibliotecas que somente o ambiente virtual será afetado. Isso significa que seu python raíz não reconhecerá as bibliotecas instaladas dentro de um virtual environment.
+
+### Windows
+
+Caso seja um usuário do Windows, é necessário realizar uma instalação manual para que funcione a biblioteca conversora de PDF em imagem. Siga os passos abaixo:
+1. Vá até essa página (https://github.com/oschwartz10612/poppler-windows/releases/) e escolha o _release_ de sua escolha (estou utilizando o _release_ **20.12.1**)
+2. Extraia o arquivo zip dentro de sua pasta "Arquivos de Programas" ou "Program Files". No final o diretório será parecido com esse ("C:\Program Files\poppler-20.12.1").
+3. Adicione a pasta bin de seu novo diretório no PATH de seu sistema. Para isso realize os passos abaixo:
+  1. Clique no botão Iniciar do Windows ou aperte a tecla _Iniciar_. Procure por "Edit the system environment variables" ou "Editar as variáveis de ambiente do sistema";
+  2. Clique em "Environment Variables" ou "Variáveis de Ambiente";
+  3. Na sessão "System variables" ou "Variáveis do sistema", clique duas vezes em _PATH_, clique em "New"/"Novo";
+  4. No campo de digitação aberto, cole o diretório "\bin" de seu diretório do poppler (no meu caso "C:\Program Files\poppler-20.12.1\Library\bin", sem aspas);
+  5. Tecle ENTER, dê um OK e reinicie o Command Line caso esteja aberto.
