@@ -1,7 +1,7 @@
 # Analisador automático de Curriculum Vitae
 <p align="center">
 <img src="cv_files/lista-email-telefone.png" width=40%>
-<img src="cv_files/cv_danilo.png" width=40%>
+<img src="cv_files/cv_danilo.png" width=60%>
 </p>
 
 <a name="intro"></a>
