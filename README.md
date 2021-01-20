@@ -14,12 +14,12 @@ O presente **Analisador Automático de Curriculum Vitae** tem como objetivo ler 
 Faça um Virtual Environment Python 3.7 através de sua IDE ou através da Command Line:
 1. Instale o virtualenv através do comando pip ``pip install virtualenv``
 2. Crie o ambiente virtual através do comando abaixo, escolhendo o **path** e o **executável** do Python 3.7:
-  1. Windows:
+    1. Windows:
 ```
 cd my-project
 virtualenv --python C:\Path\To\Python\python.exe venv
 ```
-  2. Linux: 
+    2. Linux: 
 ```
 cd /path/para/seus/projetos/projeto
 virtualenv .
