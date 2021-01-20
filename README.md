@@ -5,6 +5,14 @@ Agora não é necessário nenhum leitor OCR pois consegui extrair textualmente o
 
 PDFs são propriedades da Adobe e possuem suas próprias peculiaridades. Automatizar a extração de PDFs pode ser uma tarefa árdua. Estou na etapa de **limpar o texto gerado, linhas em branco, corrigir parágrafos**.
 
+### Objetivos a alcançar
+- Do texto não normalizado, extrair: número de telefone, e-mail, nome, endereço
+- Do texto normalizado (com eliminação de parágrafos), extrair:
+      - Quantos e quais verbos foram utilizados;
+      - Quantas e quais palavras-chave foram utilizadas:
+            "universidade de são paulo, graduação, curso, faculdade, bacharelado, licenciatura" **extrair sintagma em que aparecem**
+            "git, github, NLP, natural language processing, nltk, spacy, etc." **extrair a sentença em que aparecem**
+
 
 
 
