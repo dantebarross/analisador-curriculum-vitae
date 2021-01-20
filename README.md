@@ -6,6 +6,7 @@ As falhas de leitura foram diversas e prejudicaram muito na hora de processar o 
 2. Utilizar um leitor OCR melhor, como o do Google Cloud;
 3. Se não der certo, testar outras formas de trabalhar diretamento com o formato WORD ou converter para Texto.
 
+PDFs são propriedades da Adobe e possuem suas próprias peculiaridades. Automatizar a extração de PDFs pode ser uma tarefa árdua.
 
 # Analisador automático de Curriculum Vitae
 <a name="intro"></a>
