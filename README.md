@@ -14,7 +14,7 @@ PDFs são propriedades da Adobe e possuem suas próprias peculiaridades. Automat
 ## Sumário
 1. [Introdução](#git1)
 2. [Instalação](#git2)
-        1. [NLTK](#git2.1)
+      1. [NLTK](#git2.1)
 
 ### 1. Introdução  <a name="git1"></a> [🠡](#intro)
 O curriculum vitæ ("trajetória de vida") ou CV é um documento com o tamanho de uma página A4 contendo a trajetória educacional e de carreira de alguém. O objetivo desse tipo de currículo é mostrar sucintamente como a pessoa pode se encaixar em algum projeto, vaga de emprego e outras oportunidades (educacionais e profissionais). As habilidades e competências são levadas em conta.
