@@ -19,7 +19,7 @@ Faça um Virtual Environment Python 3.7 através de sua IDE ou através da Comma
 cd my-project
 virtualenv --python C:\Path\To\Python\python.exe venv
 ```
-    2. Linux: 
+   2. Linux: 
 ```
 cd /path/para/seus/projetos/projeto
 virtualenv .
