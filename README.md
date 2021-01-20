@@ -1,21 +1,28 @@
-# Estado atual do programa
-Ainda estou na etapa de leitura do documento de Curriculum Vitae! O leitor OCR não foi satisfatório. Outros métodos foram buscados.
+### Estado atual do programa
 
-Agora não é necessário nenhum leitor OCR pois consegui extrair textualmente os PDFs. Também há a possibilidade de extrair e ler imagens, porém isso não será feito por enquanto.
+O que o programa faz:
+1. decodificar arquivos PDF textuais;
+2. realizar a limpeza de linhas vazias e de alguns caracteres estranhos;
+3. encontrar e-mails e números de telefone no texto (por enquanto são apenas **printados**);
+4. procurar palavras-chave separadas por tema e exibir em um gráfico (o gráfico é salvo como imagem na pasta _'cv_files'_.
 
-PDFs são propriedades da Adobe e possuem suas próprias peculiaridades. Automatizar a extração de PDFs pode ser uma tarefa árdua. Estou na etapa de **limpar o texto gerado, linhas em branco, corrigir parágrafos**.
+O que o programa consegue porém não estou utilizando:
+1. implementar análises do NLTK (que não estão funcionando bem para a língua portuguesa);
+2. remover stop words e pontuações.
 
-### Objetivos a alcançar
-- Do texto não normalizado, extrair: número de telefone, e-mail, nome, endereço
-- Do texto normalizado (com eliminação de parágrafos), extrair:
-     - Quantos e quais verbos foram utilizados;
-     - Quantas e quais palavras-chave foram utilizadas:
-          - "universidade de são paulo, graduação, curso, faculdade, bacharelado, licenciatura" **extrair sintagma em que aparecem**
-          - "git, github, NLP, natural language processing, nltk, spacy, etc." **extrair a sentença em que aparecem**
+O que ainda quero fazer:
+1. extrair nome e endereço do candidato;
+2. quando possível (precisa de um modelo bem treinado), realizar análise de sentimentos, extração de sintagmas, etc.
 
 
+### Como utilizar:
+1. insira o currículo PDF na pasta cv_files;
+2. em _analisador-curriculum-vitae.py_, modifique o nome do arquivo pdf a ser analisado na seguinte variável: ``nome_pdf = 'cv_danilo'``, onde cv_danilo é o meu currículo _cv_danilo.pdf_
+3. altere as listas _palavras_chave1, 2, 3_ e _4_ de acordo com o que você quer encontrar em um currículo.
+4. execute o código python. Será exibido o gráfico em janela, e a imagem é salva na pasta _'cv_files'_
 
-
+<img src="cv_files/lista-email-telefone.png" width=100%>
+<img src="cv_files/cv_danilo.png" width=100%>
 
 # Analisador automático de Curriculum Vitae
 <a name="intro"></a>
