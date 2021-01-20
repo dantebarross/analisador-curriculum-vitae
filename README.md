@@ -1,3 +1,7 @@
+<img src="cv_files/lista-email-telefone.png" width=50% class="center">
+<img src="cv_files/cv_danilo.png" width=50% class="center">
+
+
 ### Estado atual do programa
 
 O que o programa faz:
@@ -21,8 +25,7 @@ O que ainda quero fazer:
 3. altere as listas _palavras_chave1, 2, 3_ e _4_ de acordo com o que você quer encontrar em um currículo.
 4. execute o código python. Será exibido o gráfico em janela, e a imagem é salva na pasta _'cv_files'_
 
-<img src="cv_files/lista-email-telefone.png" width=100%>
-<img src="cv_files/cv_danilo.png" width=100%>
+
 
 # Analisador automático de Curriculum Vitae
 <a name="intro"></a>
