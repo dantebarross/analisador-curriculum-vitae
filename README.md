@@ -1,7 +1,8 @@
-<img src="cv_files/lista-email-telefone.png" width=50% class="center">
-<img src="cv_files/cv_danilo.png" width=50% class="center">
-
 # Analisador automático de Curriculum Vitae
+
+<img src="cv_files/lista-email-telefone.png" width=50% align="center">
+<img src="cv_files/cv_danilo.png" width=50% align="center">
+
 <a name="intro"></a>
 ## Sumário
 1. [Introdução](#git1)
