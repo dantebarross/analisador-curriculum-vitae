@@ -1,3 +1,21 @@
+#PALAVRAS_CHAVE1
+for i in palavras_chave1:
+    count = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape(i), curriculum.lower()))
+    if count > 0:
+        pc_1_x.append(i)
+        pc_1_y.append(count)
+        #print(i, 'count:', count)
+
+plt.figure()
+plt.plot(pc_1_x, pc_1_y)
+plt.xlabel('Palavras-chave')
+plt.ylabel('Aparecimento')
+plt.title('Softwares de escritório')
+plt.savefig(nome_pdf + ' 1')
+#plt.show()
+
+
+
 # O POS tagger é horrível na língua portuguesa
 # nouns = [word for (word, pos) in palavras_tagueadas if pos in ['NN','NNP','NNS','NNPS']]
 # verbs = [word for (word, pos) in palavras_tagueadas if pos in ['VBD', 'VBG', 'VBN', 'VB', 'VBP', 'VBZ']]
