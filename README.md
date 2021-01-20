@@ -7,7 +7,7 @@ As falhas de leitura foram diversas e prejudicaram muito na hora de processar o 
 3. Se não der certo, testar outras formas de trabalhar diretamento com o formato WORD ou converter para Texto.
 
 
-# Analisador automático de Curriculum Vitae com base no conteúdo textual
+# Analisador automático de Curriculum Vitae
 <a name="intro"></a>
 ## Sumário
 1. [Introdução](#git1)
