@@ -8,10 +8,10 @@ PDFs são propriedades da Adobe e possuem suas próprias peculiaridades. Automat
 ### Objetivos a alcançar
 - Do texto não normalizado, extrair: número de telefone, e-mail, nome, endereço
 - Do texto normalizado (com eliminação de parágrafos), extrair:
-      - Quantos e quais verbos foram utilizados;
-      - Quantas e quais palavras-chave foram utilizadas:
-            "universidade de são paulo, graduação, curso, faculdade, bacharelado, licenciatura" **extrair sintagma em que aparecem**
-            "git, github, NLP, natural language processing, nltk, spacy, etc." **extrair a sentença em que aparecem**
+     - Quantos e quais verbos foram utilizados;
+     - Quantas e quais palavras-chave foram utilizadas:
+          - "universidade de são paulo, graduação, curso, faculdade, bacharelado, licenciatura" **extrair sintagma em que aparecem**
+          - "git, github, NLP, natural language processing, nltk, spacy, etc." **extrair a sentença em que aparecem**
 
 
 
