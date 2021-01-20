@@ -1,3 +1,9 @@
+# Estado atual do programa
+Ainda estou na etapa de leitura do documento de Curriculum Vitae! O leitor OCR não foi satisfatório. Outros métodos serão buscados.
+
+
+
+
 # Analisador automático de Curriculum Vitae com base no conteúdo textual
 
 O curriculum vitæ ("trajetória de vida") ou CV é um documento com o tamanho de uma página A4 contendo a trajetória educacional e de carreira de alguém. O objetivo desse tipo de currículo é mostrar sucintamente como a pessoa pode se encaixar em algum projeto, vaga de emprego e outras oportunidades (educacionais e profissionais). As habilidades e competências são levadas em conta.
