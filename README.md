@@ -29,7 +29,7 @@ virtualenv .
 O ambiente virtual será criado e executado. Agora, você pode instalar quaisquer bibliotecas que somente o ambiente virtual será afetado. Isso significa que seu python raíz não reconhecerá as bibliotecas instaladas dentro de um virtual environment.
 
 ### Windows
-
+#### Instalando o binário do Poppler
 Caso seja um usuário do Windows, é necessário realizar uma instalação manual para que funcione a biblioteca conversora de PDF em imagem. Siga os passos abaixo:
 1. Vá até essa página (https://github.com/oschwartz10612/poppler-windows/releases/) e escolha o _release_ de sua escolha (estou utilizando o _release_ **20.12.1**)
 2. Extraia o arquivo zip dentro de sua pasta "Arquivos de Programas" ou "Program Files". No final o diretório será parecido com esse ("C:\Program Files\poppler-20.12.1").
@@ -39,3 +39,9 @@ Caso seja um usuário do Windows, é necessário realizar uma instalação manua
   3. Na sessão "System variables" ou "Variáveis do sistema", clique duas vezes em _PATH_, clique em "New"/"Novo";
   4. No campo de digitação aberto, cole o diretório "\bin" de seu diretório do poppler (no meu caso "C:\Program Files\poppler-20.12.1\Library\bin", sem aspas);
   5. Tecle ENTER, dê um OK e reinicie o Command Line caso esteja aberto.
+
+#### Instalando o binário do Tesseract
+A biblioteca Tesseract (que executa a tecnologia OCR em uma imagem) também precisa do diretório "\bin" no _PATH_:
+1. Faça o download do instalador (https://github.com/UB-Mannheim/tesseract/wiki) e instale-o em seu "Arquivos de Programas" (C:\Program Files\Tesseract-OCR);
+2. No arquivo _"analisador-curriculum-vitae.py"_ desse repositório, modifique o path até o executável se necessário:
+``pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'``
