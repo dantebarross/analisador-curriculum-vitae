@@ -28,6 +28,15 @@ virtualenv .
 
 O ambiente virtual será criado e executado. Agora, você pode instalar quaisquer bibliotecas que somente o ambiente virtual será afetado. Isso significa que seu python raíz não reconhecerá as bibliotecas instaladas dentro de um virtual environment.
 
+### NLTK
+A biblioteca de Natural Language Processing (NLP) NLTK vai ser instalada no comando ``pip install requirements.txt``, porém é necessário executar, dentro de seu terminal do virtual environment, os seguintes comandos:
+```
+python # Para executar o python, faça isso dentro do virtual environment
+import nltk
+nltk.download()
+```
+Após executar os comandos acima, a janela NLTK Downloader abrirá. Clique duas vezes na opção all-nltk para baixar os pacotes de ferramenta. Aguarde pois o download e instalação podem demorar alguns minutos.
+
 ### Windows
 #### Instalando o binário do Poppler
 Caso seja um usuário do Windows, é necessário realizar uma instalação manual para que funcione a biblioteca conversora de PDF em imagem. Siga os passos abaixo:
