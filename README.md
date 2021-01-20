@@ -13,8 +13,8 @@ As falhas de leitura foram diversas e prejudicaram muito na hora de processar o 
 1. [Introdução](#git1)
 2. [Instalação](#git2)
 3. [Instalações extras para usuários Windows](#git3)
-3.1 [Instalando o binário do Poppler](#git3.1)
-3.2 [Instalando o binário do Tesseract + o suporte para a língua portuguesa](#git3.2)
+  1. [Instalando o binário do Poppler](#git3.1)
+  2. [Instalando o binário do Tesseract + o suporte para a língua portuguesa](#git3.2)
 
 
 ### 1. Introdução  <a name="git1"></a> [🠡](#intro)
